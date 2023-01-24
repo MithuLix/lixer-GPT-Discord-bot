@@ -1,14 +1,7 @@
 # lixer-GPT-Discord-bot
 
 ## Discord bot created by OpenAI and ChatGPT
-
-⭐️ If this repo helps you, a star is the biggest support for me and also helps you stay up-to-date 
-## Features
-
-* `/chat [message]` Chat with ChatGPT!
-* `/private` ChatGPT switch to private mode
-* `/public`  ChatGPT switch to public  mode
-
+-q6
 # Requirements :
 - vscode
 - Node.js v16.17.1

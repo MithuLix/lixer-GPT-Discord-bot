@@ -1,14 +1,14 @@
-# lixer-GPT-Discord-bot
+## lixer-GPT-Discord-bot
 
-## Discord bot created by OpenAI and ChatGPT
--q6
-# Requirements :
+### Discord bot created by OpenAI and ChatGPT
+
+### Requirements :
 - vscode
 - Node.js v16.17.1
 - Discord Account
 - OpenAI Account
 
-## Step 1: Create a Discord bot
+### Step 1: Create a Discord bot
 
 1. Go to https://discord.com/developers/applications create an application
 2. Build a Discord bot under the application
@@ -18,13 +18,13 @@
 6. Invite your bot to your server via OAuth2 URL Generator
 
 
-## Step 2: Generate API key from OpenAI
+### Step 2: Generate API key from OpenAI
 
 1. Go to https://beta.openai.com/account/api-keys
 2. Click Create new secret key
 3. Store the Secret Key & Organization ID to `.env file` same as env.example
 
-## Step 3: Run the bot on the desktop
+### Step 3: Run the bot on the desktop
 
 1. Write code for Discord bot
 2. Integrate OpenAI API with script file

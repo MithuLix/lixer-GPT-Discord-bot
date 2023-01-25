@@ -8,7 +8,7 @@ const client = new Client({
 // openai
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
-    organization:process.env.OPENAI_ORG, apiKey:process.env.OPENAI_KEY
+    organization:process.env.OPENAI_ORGANAIZATION, apiKey:process.env.OPENAI_API_KEY
 });
 const openai = new OpenAIApi(configuration);
 
@@ -32,4 +32,5 @@ client.on('messageCreate', async (message) => {
     catch(err){console.log(err);}
 });
 
-client.login(process.env.DISCORD_KEY);
+
+client.login(process.env.DISCORD_BOT_TOKEN);
